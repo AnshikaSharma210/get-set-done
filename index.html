@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get-set-done</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Get-set-done</h1>
+    <!-- main div -->
+    <div id="container">
+        <div id="outer">
+            <input type="text" id="add" placeholder="Add new task"><button id="addbtn" onclick="addtask()"><strong>+</strong></button>
+        </div>
+        <div class="list">
+            <!-- pending section -->
+            <div class="pendcon">
+                <h1>To-do</h1>
+                <div>
+                <div id="pendingsect">
+                </div>
+            </div>
+            </div>
+
+            <div class="compcon">
+            <!-- completed section -->
+                <h1>Done</h1>
+                <div>
+                <div id="completedsect">
+                </div></div>
+            </div>
+        </div>
+    </div>
+    <script src="main.js">
+    </script>
+</body>
+
+</html>
